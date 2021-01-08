@@ -74,7 +74,7 @@ print('\n\27[1;34m doneeeeeeee senddddddddddddd :')
 file = io.open("BOYKA", "w")  
 file:write([[
 #!/usr/bin/env bash
-cd $HOME/BOYKA
+cd $HOME/fl
 token="]]..database:get(id_server..":token")..[["
 while(true) do
 rm -fr ../.telegram-cli
@@ -160,7 +160,7 @@ io.popen("mkdir File_Bot")
 io.popen("cd File_Bot && rm -rf commands.lua.1") 
 io.popen("cd File_Bot && rm -rf commands.lua.2") 
 io.popen("cd File_Bot && rm -rf commands.lua.3") 
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/fl/flf/master/commands.lua") 
+io.popen("cd File_Bot && wget https://raw.githubusercontent.com/alamy500/fl/flf/master/commands.lua") 
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
@@ -1016,7 +1016,7 @@ end
 
 if text == 'تحديث السورس ❃' and SudoBot(msg) then 
 os.execute('rm -rf BOYKA.lua')
-os.execute('wget https://raw.githubusercontent.com/fl/flf/master/BOYKA.lua')
+os.execute('wget https://raw.githubusercontent.com/alamy500/fl/master/BOYKA.lua')
 send(msg.chat_id_, msg.id_,' ❃∫ تم تحديث السورس \n ❃∫ لديك اخر اصدار لسورس بويكا\n ❃∫ الاصدار » { 1.3v}')
 dofile('BOYKA.lua')  
 end
