@@ -20,7 +20,7 @@ sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
 lua BOYKA.lua
-sudo chmod +x BOYKA
+sudo chmod +x fl
 sudo chmod +x ./BK
 ./BK
 }
@@ -33,7 +33,7 @@ exit 1
 fi
 sudo chmod +x tg
 lua BOYKA.lua
-sudo chmod +x BOYKA
+sudo chmod +x fl
 sudo chmod +x ./BK
 ./BK
 fi
