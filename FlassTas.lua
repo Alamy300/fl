@@ -105,7 +105,7 @@ cd $HOME/BOYKA
 while(true) do
 rm -fr ../.telegram-cli
 screen -S BOYKA -X kill
-screen -S BOYKA ./BOYKA
+screen -S BOYKA ./flb
 done
 ]])  
 file:close() 
